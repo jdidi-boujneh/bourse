@@ -19,15 +19,16 @@
      <!-- Main Input For Receiving Query to our ML -->
     <form action="{{ url_for('predict')}}"method="post">
 	    							
-    	<input type="text" name="experience" placeholder="Rendement" required="required" />
-        <input type="text" name="test_score" placeholder="Volatility" required="required" />
-		<input type="text" name="interview_score" placeholder="volume" required="required" />
+    	<input type="text" name="aa" placeholder="Rendement" required="required" />
+        <input type="text" name="bb" placeholder="Volatility" required="required" />
+		<input type="text" name="cc" placeholder="volume" required="required" />
 		<input type="text" name="a" placeholder="Risk" required="required" />
         <input type="text" name="b" placeholder="Value-risk" required="required" />
 		<input type="text" name="c" placeholder="Sharpe" required="required" />
 		<input type="text" name="d" placeholder="skewness" required="required" />
         <input type="text" name="e" placeholder="Kurtosis" required="required" />
 		<input type="text" name="f" placeholder="drawdown" required="required" />
+	  
 
         <button type="submit" class="btn btn-primary btn-block btn-large">cluster</button>
     </form>

@@ -28,4 +28,4 @@ pickle.dump(regressor, open('kmeans.pkl','wb'))
 
 # Loading model to compare the results
 model = pickle.load(open('kmeans.pkl','rb'))
-print(model.predict([[2, 9, 6 , 2, 9, 6 , 2, 9, 6]]))
+#print(model.predict([[2, 9, 6 , 2, 9, 6 , 2, 9, 6]]))
